@@ -1,0 +1,48 @@
+﻿footer {
+    border-top: 1px solid black;
+    background-color:whitesmoke;
+}
+
+footer article.icons {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+    footer article.icons section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 25px;
+        padding-left: 10px;
+    }
+
+        footer article.icons section i {
+            font-size: 25px;
+            width: 35px;
+        }
+
+        footer article.icons section span {
+            margin-left: 10px;
+        }
+
+footer nav {
+    display: grid;
+    margin-top: 10px;
+}
+
+    footer nav article a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    footer nav article.location-language {
+        display: none;
+    }
+
+footer small {
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+}
+
+

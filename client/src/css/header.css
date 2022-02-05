@@ -1,0 +1,77 @@
+﻿
+header {
+    display: grid;
+    grid-template-columns: 20% 35% 45%;
+    grid-template-areas:
+        "img img img"
+        "search-container search-container search-container"
+        "multimedia-container multimedia-container multimedia-container"
+        "nav nav nav";
+
+    border-bottom: 1px solid black;
+    margin-bottom: 3vh;
+    background-color: whitesmoke;
+}
+
+    header img {
+        grid-area: img;
+        width: 100%;
+    }
+
+    header .search-container,
+    header .multimedia-container {
+        margin-top: 10px;
+    }
+
+    header .search-container {
+        grid-area: search-container;
+        position: relative;
+    }
+
+.search-container form {
+    position: relative;
+}
+
+.search-container input {
+    padding-left: 20px;
+    border-radius: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+    .search-container input:focus {
+        outline: none;
+    }
+
+.search-container i {
+    position: absolute;
+    left: 4px;
+    top: 8px;
+    font-size: 14px;
+}
+
+header .multimedia-container {
+    grid-area: multimedia-container;
+}
+
+    header .multimedia-container select {
+        padding: 5px 10px;
+    }
+
+    header .multimedia-container i {
+        margin-left: 10px;
+    }
+
+header nav {
+    grid-area: nav;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+    header nav a {
+        text-decoration: none;
+        color: #000;
+    }

@@ -1,0 +1,51 @@
+main section.items {
+    display: unset;
+}
+
+main.h1 {
+    display = flex;
+    align-items = center;
+}
+
+article.item.details-page {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    min-height: 35vh;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+    article.item.details-page .image-frame img {
+        width: 20vh;
+        height: none;
+        margin: 3vh;
+    }
+
+    article.item.details-page .image-frame {
+        margin: 3vh;
+        display: grid;
+        min-height: 30vh;
+        align-items: center;
+        justify-content: center;
+        background-color: whitesmoke;
+    }
+
+    article.item.details-page .item-details {
+        position: relative;
+        width: 60vw;
+        margin: 3vh;
+    }
+
+.floating-price-tag {
+    position: absolute;
+    bottom: 3vh;
+    left: 0;
+    font-weight: bold;
+}
+
+button.details-button {
+    min-width: 100px;
+    height: 30px;
+    margin: 3vh auto 0;
+}

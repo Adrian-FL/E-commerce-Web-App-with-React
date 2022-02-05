@@ -1,0 +1,41 @@
+article.item.details-page {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    min-height: 55vh;
+
+    font-size: 20px;
+}
+
+    article.item.details-page .image-frame img {
+        width: 30vh;
+        height: none;
+        margin: 3vh;
+    }
+
+    article.item.details-page .image-frame {
+        margin: 3vh;
+        display: grid;
+        min-height: 45vh;
+        align-items: center;
+        justify-content: center;
+        background-color: whitesmoke;
+    }
+
+    article.item.details-page .item-details {
+        width: 60vw;
+        margin: 3vh;
+    }
+
+    .price-tag {
+        font-weight: bold;
+        padding-top: 15px;
+        
+
+    }
+
+button.details-button {
+    min-width: 100px;
+    height: 30px;
+    margin: 3vh auto 0;
+}
